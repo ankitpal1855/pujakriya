@@ -1,0 +1,89 @@
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(#000,#111);
+    color: #ccc;
+    display: flex;
+    width: 100%;
+    padding: 7px 0px 14px 0px;
+    height: 153px;
+}
+
+#froaontd-olm{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#froaontd-olm div{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#froaontd-olm div a{
+    color: #ccc;
+}
+
+#froaontd-orm{
+    width: 30%;
+    display: flex;
+    color: #666;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#icon2{
+    width: 55px;
+    height: 55px;
+    margin-right: 7px;
+    border-radius: 50%;
+}
+
+
+#tahprpelee{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.underline-hover {
+    position: relative;
+    transition: color 0.3s;
+}
+
+.underline-hover::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 2.5px;
+    background-color: #aa5b00;
+    transition: width 0.3s;
+}
+
+.underline-hover:hover::before {
+    width: 100%;
+}
+
+.underline-hover:hover::after {
+    width: 100%;
+}
+
+/* Styles for the link on hover */
+.underline-hover:hover {
+    color: #555;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+#footer-title{
+    font-size: 20px;
+}
+footer img{
+    width: 40px !important;
+    height: 40px !important;
+}

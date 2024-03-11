@@ -1,0 +1,65 @@
+main{
+    text-align: center;
+    color:white;
+    width: 500px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+hr{
+    width: 90%;
+    margin:70px auto ;
+}
+.title{
+    color: rgb(235, 164, 32);
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.sections ul li{
+    list-style: none;
+}
+.subtitle{
+    margin-bottom: 20px;
+}
+.container form h2{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.field p{
+    margin-bottom: 10px;
+}
+input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1px 5px;
+    width: 300px;
+    border-radius: 3px;
+    height: 28px;
+    border: 2px solid rgb(255, 154, 39);
+    background-color: rgb(255, 231, 193);
+}
+#submit{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100px;
+    background-color: rgb(255, 168, 7);
+    border: 2px solid rgb(255, 150, 37);
+    margin-bottom: 40px;
+}
+#submit:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+form{
+    background-image: linear-gradient(to bottom left,rgb(255, 153, 0),rgb(255, 210, 127));
+    border: 2px solid rgb(255, 0, 0);
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+h3, h4{
+    margin: 10px;
+}
